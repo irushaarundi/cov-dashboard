@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-// import './App.css';
+import React from "react";
+// Import end
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+// App component starts here
+// return statement goes below this
+    return (
+        <div className="App">
+            <h1>COVID 19 Dashboard </h1>
+            <div className="dashboard-container">
+                <div className='dashboar-menu'></div>
+                <div className="dashboard-summary"></div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
